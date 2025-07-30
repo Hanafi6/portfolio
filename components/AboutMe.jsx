@@ -4,25 +4,27 @@ import { motion } from 'framer-motion';
 
 const cards = [
   {
-    title: "Who I Am as a Person",
+    title: "Who I Am ",
     img: "/images/newText.png",
-    desc: `Before I became a developer, I was a guy who loved to notice the small things.
-I studied Geomatics Engineering, but I always felt drawn to the world of creativity and interaction.
-I find beauty in the details — colors, layout, the feeling behind a page — and I believe simplicity often says more than words.`,
+    desc: `I'm Mahmoud, a front-end developer passionate 
+    about building interactive and functional user interfaces using React
+    and Next.js. With a background in space and data analysis, I love combining
+    structured design with analytical thinking to deliver effective and easy-to-use software
+    solutions.`,
   },
   {
-    title: "Who I Am as a Developer",
+    title: "",
     img: "/images/part_2.png",
-    desc: `My real passion began when I discovered React.
-I don’t just write code — I ask why it works, how it can be cleaner, better.
-I enjoy building real projects using tools like Tailwind, Zustand, and React Query — from chat apps to interactive note systems that feel alive.`,
+    desc: `I'm Mahmoud, someone who sees programming not just as
+    code, but as a reflection of a way of thinking. I believe that
+    every interface I create is a human experience before it's technical, and that the small details are what create 
+    the big impression.`,
   },
   {
-    title: "Who I Am as a Learner and Builder",
+    title: "For Me",
     img: "/images/text.png",
-    desc: `I believe learning is a journey, not a race.
-I take my time to understand deeply, and I love documenting what I learn to make it easier for others.
-My goal isn’t just to build apps — it’s to be a source of inspiration for anyone starting late or starting over.`,
+    desc: `Every day you postpone your work, someone less fortunate than you will find work and pass you by.
+    The comfort you're experiencing now is the grave your fear has dug for you while you're silent.`,
   },
 ];
 
