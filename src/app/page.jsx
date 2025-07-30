@@ -1,10 +1,5 @@
-// app/page.js
 import AboutMe from '../../components/AboutMe';
 import HeroSection from '../../components/HeroSection';
-
-
-
-// انتا لسه معرضتش الصور يصطا اتأكد من العرض الصحيح للصور
 
 export default function Home() {
   return (

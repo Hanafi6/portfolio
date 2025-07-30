@@ -4,10 +4,10 @@ import Link from 'next/link';
 import { Menu, X } from 'lucide-react'; // icons
 
 const links = [
-  { name: "الرئيسية", href: "/" },
-  { name: "المهارات", href: "/skills" },
-  { name: "المشاريع", href: "/projects" },
-  { name: "تواصل", href: "/contact" },
+  { name: "Home", href: "/" },
+  { name: "Skills", href: "/skills" },
+  { name: "Projects", href: "/projects" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function NavbarWrapper() {
@@ -20,7 +20,7 @@ export default function NavbarWrapper() {
           
           {/* اللوجو */}
           <div className="flex-shrink-0 text-xl font-bold text-primary dark:text-white">
-            <Link href="/">محمود</Link>
+            M
           </div>
 
           {/* القايمة العادية في الشاشات الكبيرة */}

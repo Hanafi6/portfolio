@@ -1,8 +1,8 @@
 // src/app/Routs/contact/page.tsx
 'use client';
+
 import { useEffect, useRef, useState } from 'react';
 import { FaEnvelope, FaGithub, FaLinkedin, FaPhoneAlt, FaFacebook } from 'react-icons/fa';
-import { GiConsoleController } from 'react-icons/gi';
 
 const contactItems = [
   {

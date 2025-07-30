@@ -1,4 +1,5 @@
-'use client'
+
+'use client';
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -19,13 +20,13 @@ export default function HeroSection() {
 
       {/* المحتوى */}
       <div className="relative z-10 max-w-3xl mx-auto px-2">
-    <Image
-  src="/images/profile-ai.png.jpg"
-  width={120}
-  height={120}
-  alt="Profile"
-  className="rounded-full mx-auto mb-4 border-4 border-white shadow-lg w-[100px] sm:w-[120px]"
-/>
+      <Image
+        src="/images/profile-ai.png.jpg"
+        width={120}
+        height={120}
+        alt="Profile"
+        className="rounded-full mx-auto mb-4 border-4 border-white shadow-lg w-[100px] sm:w-[120px]"
+      />
 
         <h1 className="text-3xl sm:text-4xl font-bold mb-2 text-white">Mahmoud Ahmed</h1>
         <p className="text-base sm:text-lg text-gray-300 mb-4">

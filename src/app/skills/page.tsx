@@ -1,3 +1,6 @@
+
+'use client';
+
 import SkillSphere from '../../../components/SkillSphere';
 
 export default function SkillsPage() {
