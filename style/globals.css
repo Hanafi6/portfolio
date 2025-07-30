@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.rainbow-border {
+  background: linear-gradient(270deg, 
+    #ff0000, #ff9900, #33cc33, #3399ff, #9933ff, #ff3399, #ff0000);
+  background-size: 600% 600%;
+  animation: rainbow 5s linear infinite;
+  border-radius: 0.5rem;
+}

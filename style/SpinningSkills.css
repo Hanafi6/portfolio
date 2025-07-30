@@ -1,0 +1,32 @@
+.skills-container {
+  perspective: 1000px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotateCircle 20s linear infinite;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center center -200px;
+  color: #61dafb;
+}
+
+@keyframes rotateCircle {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
